@@ -1,9 +1,10 @@
 # DinoArduino
 google t-rex no internet game with servo motor and light sensors
 
-
+<span>
+  
 //https://trex-runner.com/
-#include <Servo.h>
+#include <Servo.h> 
 #define threshold  400   //sensor sensitivity
 //servo motor range in press
 #define unpress_angle  80
@@ -30,3 +31,4 @@ void loop() {
  }                     
 }
 
+</span>
